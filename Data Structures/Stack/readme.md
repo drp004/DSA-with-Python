@@ -1,6 +1,8 @@
 ## Stacks in Python
 
-A Stack is a linear data structure that operates on a very specific rule: LIFO (Last In, First Out). This means that the last element added is the first one to be removed. In a stack, both insertion and deletion happen at the same end, which is called the top of the stack.
+A Stack is a linear data structure that operates on a very specific rule: LIFO (Last In, First Out). 
+
+This means that the last element added is the first one to be removed. In a stack, both insertion and deletion happen at the same end, which is called the top of the stack.
 
 
 #### Real-life example:
@@ -30,7 +32,7 @@ isEmpty()	    Check if stack is empty         O(1)            O(1)
 
 Because a stack restricts where you can add and remove data, its core operations are incredibly fast.
 
-#### Spcae complexity:
+#### Space complexity:
 
 If stack has n elements: Space = O(n)
 

@@ -64,7 +64,7 @@ isEmpty()	    Check if queue is empty             O(1)            O(1)
     - Traffic system
     - CPU Scheduling
 
-#### 4. Input restricted Queue:
+#### 3. Input restricted Queue:
 
 - In this type of Queue, the input can be taken from one side only(`rear`) and deletion of elements can be done from both sides(`front` and `rear`).
 
@@ -72,7 +72,7 @@ isEmpty()	    Check if queue is empty             O(1)            O(1)
 
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20220623131417/inputrestrictedqueue.jpg">
 
-#### 5. Output restricted Queue:
+#### 4. Output restricted Queue:
 
 - In this type of Queue, the input can be taken from both sides(`rear` and `front`) and the deletion of the element can be done from only one side(`front`).
 
@@ -80,17 +80,17 @@ isEmpty()	    Check if queue is empty             O(1)            O(1)
 
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20220623131455/outputrestrictedqueue.jpg">
 
-#### 6. Double ended Queue:
+#### 5. Double ended Queue (`Deque`):
 
 - Double Ended Queue is also a Queue data structure in which the insertion and deletion operations are performed at both the ends (`front` and `rear`).
 
 - Since Deque supports both stack and queue operations, it can be used as both.
 
-- The Deque data structure supports clockwise and anticlockwise rotations in O(1) time which can be useful in certain applications.
+- The Deque data structure supports clockwise and anticlockwise rotations in `O(1)` time which can be useful in certain applications.
 
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20220623131811/doubleended.jpg">
 
-#### 7. Priority Queue:
+#### 6. Priority Queue:
 
 - A priority queue is a special type of queue in which each element is associated with a priority and is served according to its priority.
 
@@ -104,7 +104,7 @@ isEmpty()	    Check if queue is empty             O(1)            O(1)
 
 ### Advantages of Queue:
 
-1. All operations are O(1)
+1. All operations are `O(1)`
 2. Maintains processing order
 3. Useful for scheduling tasks
 4. Dynamic size (linked list / deque)
@@ -115,7 +115,7 @@ isEmpty()	    Check if queue is empty             O(1)            O(1)
 ### Disadvantages:
 
 1. No random access (can’t access middle directly)
-2. Searching takes O(n)
+2. Searching takes `O(n)`
 3. Array implementation may waste space (if not circular)
 
 ---
